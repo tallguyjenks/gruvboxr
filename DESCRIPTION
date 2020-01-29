@@ -1,0 +1,13 @@
+Package: gruvboxr
+Title: A gruvbox theme for RStudio.
+Version: 0.0.1
+Authors@R: c(person("Bryan", "Jenks", email = "bryanjenks@protonmail.com", role = c("aut", "cre")))
+Description: A gruvbox color theme for your RStudio IDE
+Depends: R (>= 3.3.0)
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    fs,
+    rstudioapi
+RoxygenNote: 7.0.2
