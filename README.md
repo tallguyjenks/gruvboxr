@@ -2,6 +2,12 @@
 
 A gruvbox RStudio theme. 
 
+<center>
+
+![](/inst/media/preview.png)
+
+</center>
+
 # Attribution
 
 This repo was forked from  [anthonynorth/rscodeio](https://github.com/anthonynorth/rscodeio)
@@ -28,7 +34,7 @@ remotes::install_github("tallguyjenks/gruvboxr")
 From within RStudio running as administrator, run this command to install and apply the theme: 
 
 ```
-rscodeio::install_theme()
+gruvboxr::install_theme()
 ```
 
 And close RStudio. Reopen it in the normal way and the theme should be fully applied.
@@ -44,4 +50,4 @@ Once installed it can also be selected using the RStudio theme picker in the usu
 
 # Switching to another theme
 
-`rscodeio` modifies UI elements that are not part of standard theming. This means the RStudio file menus will remain dark even if you switch to another theme. To revert them, within an RStudio session run as administrator, use: `gruvboxr::deactivate_menu_theme`. Reactivate again with: `gruvboxr::activate_menu_theme`.
+`gruvboxr` modifies UI elements that are not part of standard theming. This means the RStudio file menus will remain dark even if you switch to another theme. To revert them, within an RStudio session run as administrator, use: `gruvboxr::deactivate_menu_theme`. Reactivate again with: `gruvboxr::activate_menu_theme`.
