@@ -6,9 +6,9 @@
   --editor-background: rgb(var(--editor-background-color));
   --editor-foreground: rgb(235,219,178);
 
-  --separator: rgb(68, 68, 68);
+  --separator: rgb(40,40,40);
   --toolbar: rgb(37, 37, 38);
-  --tab: rgb(45, 45, 45);
+  --tab: rgb(30, 30, 30);
   --selected-tab: var(--editor-background);
 
   /* syntax */
@@ -312,20 +312,20 @@
 /* background */
 .rstudio-themes-flat > .rstudio-themes-dark,
 .rstudio-themes-flat > .rstudio-themes-dark :-webkit-any(.gwt-TabLayoutPanel, .gwt-TabLayoutPanelContent) {
-  background: rgb(52, 52, 52) !important;
+  background: rgb(30, 30, 30) !important;
 }
 
 /* splitters */
 .rstudio-themes-flat > .rstudio-themes-dark .gwt-SplitLayoutPanel-HDragger {
-  background: rgb(52, 52, 52) !important;
+  background: rgb(30, 30, 30) !important;
   cursor: ew-resize;
-  border-color: rgb(52, 52, 52);
+  border-color: rgb(30, 30, 30);
 }
 
 .rstudio-themes-flat > .rstudio-themes-dark .gwt-SplitLayoutPanel-VDragger {
-  background: rgb(52, 52, 52) !important;
+  background: rgb(30, 30, 30) !important;
   cursor: ns-resize;
-  border-color: rgb(52, 52, 52);
+  border-color: rgb(30, 30, 30);
   /* box-shadow: 0 -1px 0 var(--separator) inset; */
 }
 
