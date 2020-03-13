@@ -273,6 +273,10 @@
   z-index: 1;
 }
 
+.ace_dialog.ace_dialog-bottom {
+  background: var(--editor-background-color) !important;
+}
+
 .rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete {
   background: #2f3941;
   border: solid 1px #4e5c68 !important;
