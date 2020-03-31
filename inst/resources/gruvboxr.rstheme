@@ -26,7 +26,9 @@
   --heading: var(--language-constant);
   --inline-code: var(--string);
 }
-
+#rstudio_container > div:nth-child(2) > div > div:nth-child(3) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > div:nth-child(6) > div > div:nth-child(2) > div > div:nth-child(3) > div > div:nth-child(2) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > div:nth-child(4) > div > div > div:nth-child(4) > div > div:nth-child(3) > div > div:nth-child(2) > div{
+  background-color: var(--editor-background-color);
+}
 .ace_gutter {
   color: rgb(133, 133, 133);
 }
