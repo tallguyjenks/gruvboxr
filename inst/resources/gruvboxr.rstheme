@@ -9,7 +9,7 @@
   --separator: rgb(40,40,40);
   --toolbar: rgb(37, 37, 38);
   --tab: rgb(30, 30, 30);
-  --selected-tab: var(--editor-background);
+  --selected-tab: var(--editor-background-color);
 
   /* syntax */
   --type-declaration: rgb(104,157,106);
@@ -28,6 +28,9 @@
 }
 #rstudio_container > div:nth-child(2) > div > div:nth-child(3) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > div:nth-child(6) > div > div:nth-child(2) > div > div:nth-child(3) > div > div:nth-child(2) > div > div:nth-child(2) > div > div > div:nth-child(2) > div > div:nth-child(4) > div > div > div:nth-child(4) > div > div:nth-child(3) > div > div:nth-child(2) > div{
   background-color: var(--editor-background-color);
+}
+.ace_dialog.ace_dialog-bottom {
+  background: var(--editor-background-color) !important;
 }
 .ace_gutter {
   color: rgb(133, 133, 133);
